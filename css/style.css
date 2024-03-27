@@ -4,16 +4,28 @@ body {
     background-color: #FFFFFF;
 }
 
-a {
-    text-decoration: none;
-    color: #2E2F42;
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 ul {
     list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 
-
+a {
+    text-decoration: none;
+    color: #2E2F42;
+}
 
 a:hover {
     color: #404BBF;
@@ -162,6 +174,8 @@ span {
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+    max-width: 496px;
+    margin-bottom: 48px;
 }
 
 .hero-section-button {
@@ -197,3 +211,29 @@ span {
 .our-team-section-li {
     background-color: #FFFFFF;
 }
+
+.visually-hidden {
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.container {
+    width: 1166px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.hero-section {
+    padding-bottom: 204px;
+}
+
