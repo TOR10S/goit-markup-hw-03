@@ -157,7 +157,7 @@ span {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .our-portfolio-section-paragraf {
@@ -301,6 +301,7 @@ span {
 
 .our-portfolio-section-ul {
     row-gap: 48px;
+    column-gap: 24px;
     display: flex;
     padding-bottom: 120px;
     flex-wrap: wrap;
