@@ -139,6 +139,7 @@ span {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-bottom: 8px;
 }
 
 .our-portfolio-section-paragraf {
@@ -256,6 +257,7 @@ span {
 }
 
 .features-list {
+    display: flex;
     padding-bottom: 120px;
     padding-top: 120px;
 }
@@ -290,8 +292,13 @@ span {
 .our-portfolio-section-li {
     display: flex;
     flex-direction: column;
-
+}
 
 .our-portfolio-section-img {
     display: block;
+    margin-bottom: 32px;
+}
+
+.features-list {
+    display: flex;
 }
