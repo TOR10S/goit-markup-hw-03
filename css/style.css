@@ -337,3 +337,8 @@ span {
     display: flex;
     gap: 40px
 }
+
+.facts-section {
+    padding: 120px
+}
+
