@@ -234,6 +234,7 @@ span {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .span-footer {
@@ -290,7 +291,7 @@ span {
 
 .our-team-section-ul {
     display: flex;
-    gap: 24px 48px;
+    gap: 24px;
     padding-bottom: 120px;
 }
 
