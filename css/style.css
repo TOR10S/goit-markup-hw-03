@@ -4,6 +4,19 @@ body {
     background-color: #FFFFFF;
 }
 
+img {
+    display: block;
+}
+
+footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+section {
+    padding-top: 120px; padding-bottom: 120px;
+}
+
 p,
 h1,
 h2,
@@ -67,6 +80,7 @@ span {
 }
 
 .footer-logo {
+    display: inline-block;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -74,6 +88,7 @@ span {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-bottom: 16px;
 }
 
 .main-section-paragraf {
@@ -260,15 +275,6 @@ span {
     display: flex;
     padding-bottom: 120px;
     padding-top: 120px;
-}
-
-.footer-logo-container {
-    padding-bottom: 16px;
-}
-
-.footer-container {
-    padding-top: 100px;
-    padding-bottom: 100px;
 }
 
 .our-team-section-img {
