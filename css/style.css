@@ -213,7 +213,11 @@ span {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
-    display: flex;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 
 .hero-section-button:hover {
@@ -266,6 +270,7 @@ span {
 
 .hero-section {
     padding-bottom: 204px; 
+    padding: 188px
 }
 
 .section {
