@@ -60,6 +60,7 @@ span {
     letter-spacing: 0.03em;
     color: #4d5ae5;
     text-transform: uppercase;
+    margin-right: 76px
 }
 
 .address-info {
@@ -176,6 +177,7 @@ span {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
 }
 
 .link:focus {
@@ -307,4 +309,27 @@ span {
 
 .features-list {
     display: flex;
+}
+
+.header-section {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+    display: flex;
+}
+
+.header-nav-section {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    gap: 40px
+}
+
+.address-info-section {
+    display: flex;
+    gap: 40px
 }
